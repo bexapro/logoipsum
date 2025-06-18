@@ -1,0 +1,137 @@
+@import "fonts.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --DM700: "DMSans_18pt-Bold" ;
+    --MR400: "Mulish-Regular" ;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* .header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} */
+
+.header__nav-content {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav-list {
+    display: flex;
+    gap: 50px;
+    
+    
+}
+.header__nav-link {
+    color: #696871;
+    font-family: var(--DM700);
+    font-size: 15px;
+    transition: .4s;
+}
+.header__nav-link:hover {
+    color: black;
+    border-bottom: 2px solid #5454D4;
+    padding-bottom: 10px;
+    
+
+}
+.header__nav-btn {
+    cursor: pointer;
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--DM700);
+    font-size: 17px;
+    transition: .5s;
+}
+.header__nav-btn:hover {
+    background: #FF7143;
+    color: white;
+    transform: scale(1.2);
+}
+.header__sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    /* flex-grow: 1; */
+}
+.header__left-title {
+    max-width: 460px;
+    width: 100%;
+    color: #19191B;
+    font-size: 80px;
+    font-family: var(--DM700);
+
+}
+.header__left-text {
+    max-width: 460px;
+    width: 100%;
+    line-height: 30px;
+    color: #696871;
+    font-family: var(--MR400);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 30px 0 50px 0;
+}
+.header__left-btn button {
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--DM700);
+    font-size: 17px;
+    transition: .5s;
+    background: gray;
+    margin-right: 40px;
+}
+.header__left-btn button:hover {
+    color: white;
+    background: #5454D4;
+    transform: scale(1.2);
+}
+.header__left-circle {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__left-btn {
+    display: flex;
+}
+.header__right img {
+    transition: .5s;
+}
+.header__right img:hover {
+    transform: scale(1.2);
+}
+.header__logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.header__logos-img img {
+    transition: .5s;
+
+}
+.header__logos-img img:hover {
+    transform: scale(1.3);
+}
